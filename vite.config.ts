@@ -30,6 +30,7 @@ export default defineConfig({
       include: [".yarn/**"],
     },
   },
+  cacheDir: "./.vite",
   define: {
     global: "globalThis",
   },
